@@ -30,9 +30,9 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        compile ":activiti:5.16.4"
+        compile ":activiti:5.17.0"
         compile ":cache-ehcache:1.0.4"
-        compile ':spring-security-core:2.0-RC3'
+        compile ":spring-security-core:2.0-RC4"
 
         compile ':hibernate:3.6.10.15', ':tomcat:7.0.53', ':scaffolding:2.0.3' {
             export = false
