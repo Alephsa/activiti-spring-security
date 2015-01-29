@@ -28,7 +28,7 @@ import org.grails.activiti.springsecurity.SpringSecurityUserManagerFactory
  * @since 0.1
  */
 class ActivitiSpringSecurityGrailsPlugin {
-	def version = "5.17.0"
+	def version = "5.17.0.1"
 	def grailsVersion = "2.0.0 > *"
 
 	def loadAfter = ['activiti']
