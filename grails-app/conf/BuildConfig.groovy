@@ -29,6 +29,9 @@ grails.project.dependency.resolution = {
         mavenRepo 'http://dl.bintray.com/alephsa/maven'
     }
 
+    dependencies {
+        compile 'net.sf.ehcache:ehcache:2.7.0'
+    }
     plugins {
         compile ":activiti:5.17.0.1"
         compile ":spring-security-core:2.0-RC4"
