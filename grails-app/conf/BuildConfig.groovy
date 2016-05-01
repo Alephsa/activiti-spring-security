@@ -33,7 +33,7 @@ grails.project.dependency.resolution = {
         compile 'net.sf.ehcache:ehcache:2.7.0'
     }
     plugins {
-        compile ":activiti:5.17.0.1"
+        compile ":activiti:5.20.0"
         compile ":spring-security-core:2.0-RC4"
 
         compile ':hibernate:3.6.10.15', ':tomcat:7.0.53', ':scaffolding:2.0.3' {
